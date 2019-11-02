@@ -26,5 +26,9 @@ driver.get('http://monespace.ut-capitole.fr/tag.4fffb8452a630002.render.userLayo
 
 sleep(20)
 driver.save_screenshot("yuna's schedule/screenshot.png")
+print('저장완료')
+
+
+# driver.get('http://sangmin99554.pythonanywhere.com/upload/')
 
 driver.quit()
